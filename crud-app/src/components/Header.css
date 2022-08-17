@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Letter Magic";
+    src: url("./Letter Magic.ttf") format("truetype");
+}
+
 header {
     text-align: center;
     margin: 0;
@@ -15,7 +20,7 @@ header {
     padding: 5px 10px;
     font-weight: 100;
     margin: 1rem;
-    color: #fff;
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
@@ -32,10 +37,12 @@ header {
 
 .link:hover,
 .link:active {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid white;
 }
 
 
-h1 {
-    color: white;
+.title {
+    color: rgb(238, 218, 248);
+    font-family: "Letter Magic";
+    font-size: 10vh;
 }
